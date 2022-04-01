@@ -11,8 +11,8 @@
   evaluation. Note that all URLs you save to the demo are visible to everyone else!
  </p>
 <p>
-  For now, synchronization is one way. URLs added via the extension or read using the extension are updated on the webapp,
-  but pages read on the webapp are not deleted from the Read Later list.
+  For now, synchronization is one way. URLs added via the extension or read using the extension are added or removed on the webapp,
+  but pages read on the webapp are not deleted from the Read Later extension list.
 </p>
 <p>
   If you want a development mode Read Later to be synchronized across multiple installations, you have to <a href='https://developer.chrome.com/docs/extensions/mv2/manifest/key/'>add a key to the manifest</a> that
