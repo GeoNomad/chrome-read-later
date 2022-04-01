@@ -3,13 +3,19 @@
   This is a hack or kludge fork of the Willbchang's Read Later that copies links to a php based web page.
 </p>
 <p>
-  Installation of the Read Later extension is as shown below using LOAD UNPACKED for the original version.<br>
+  Installation of the Read Later extension is as shown below using LOAD UNPACKED for the original version.<br><br>
   The PHP code needs to be installed on your own server and the URLs in modules/chrome/storage.mjs need to be pointed
-  to your own add.php function. A demo version is installed at https://readlater.000webhostapp.com/index.php for
+  to your own add.php function. A <a href='https://readlater.000webhostapp.com/index.php'>demo version</a> is available
   evaluation. Note that all URLs you save to the demo are visible to everyone else!
  </p>
-
-
+<p>
+  For now, synchronization is one way. URLs added via the extension or read using the extension are updated on the webapp,
+  but pages read on the webapp are not deleted from the Read Later list.
+</p>
+<p>
+  If you want a development mode Read Later to be synchronized across multiple installations, you have to <a href='https://developer.chrome.com/docs/extensions/mv2/manifest/key/'>add a key to the manifest</a> that
+  matches the ID of the installed extension.
+</p>
 
 
 <hr>
