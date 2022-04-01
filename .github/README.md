@@ -2,12 +2,17 @@
 <p>
   This is a hack or kludge fork of the Willbchang's Read Later that copies links to a php based web page.
 </p>
+<p>
+  Installation of the Read Later extension is as shown below using LOAD UNPACKED for the original version.<br>
+  The PHP code needs to be installed on your own server and the URLs in modules/chrome/storage.mjs need to be pointed
+  to your own add.php function. A demo version is installed at https://readlater.000webhostapp.com/index.php for
+  evaluation. Note that all URLs you save to the demo are visible to everyone else!
+ </p>
 
 
 
 
-
-
+<hr>
 
 
 <p align="center">
