@@ -1,3 +1,15 @@
+<p><b>Read Later with Mobile Webapp</b></p>
+<p>
+  This is a hack or kludge fork of the Willbchang's Read Later that copies links to a php based web page.
+</p>
+
+
+
+
+
+
+
+
 <p align="center">
   <img src="images/logotype.png" alt="Read Later Logo" height="150px"><br>
   <sub>Dedicated to my fiancee Yang Yang</a></sub><br>
