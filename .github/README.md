@@ -1,10 +1,10 @@
 <p><b>Read Later with Mobile Webapp</b></p>
 <p>
-  This is a hack or kludge fork of the Willbchang's Read Later that copies links to a php based web page.
+  This is a hack or kludge fork of the Willbchang's Read Later that copies links to a php based web page for use on mobile browsers.
 </p>
 <p>
   Installation of the Read Later extension is as shown below using LOAD UNPACKED for the original version.<br><br>
-  The PHP code needs to be installed on your own server and the URLs in modules/chrome/storage.mjs need to be pointed
+  The PHP code needs to be installed on your own server and the URLs in <a href='https://github.com/GeoNomad/chrome-read-later/blob/master/modules/chrome/storage.mjs'>modules/chrome/storage.mjs</a> need to be pointed
   to your own add.php function. A <a href='https://readlater.000webhostapp.com/index.php'>demo version</a> is available
   evaluation. Note that all URLs you save to the demo are visible to everyone else!
  </p>
