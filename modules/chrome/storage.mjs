@@ -11,6 +11,9 @@ class Storage {
     }
 
     set(page) {
+        jQuery.post('https://readlater.000webhostapp.com/add.php',        // <-------------- change to your server
+        `id=${page.date}&url=${page.url}`);
+
         return new Promise(resolve =>{
             const data = page.url ? {[page.url]: page} : page
             this.storage.set(data, resolve)
@@ -18,6 +21,9 @@ class Storage {
     }
 
     remove(url) {
+         jQuery.post('https://readlater.000webhostapp.com/add.php',    // <----------------- change to your server
+        `remove=${url}`);
+
         return this.storage.remove(url)
     }
 
